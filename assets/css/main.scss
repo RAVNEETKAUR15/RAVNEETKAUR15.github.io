@@ -1,1 +1,148 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
 
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+/*******************************************************************************
+ * Ravneet's design layer
+ * Everything above is the theme's original file. Everything below is mine.
+ * Palette: ink text, plum accent, McGill red for small highlights.
+ ******************************************************************************/
+
+:root {
+  --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+
+  --global-bg-color: #faf9fb;
+  --global-card-bg-color: #ffffff;
+  --global-text-color: #1e1a2b;
+  --global-text-color-light: #6a6478;
+  --global-theme-color: #7a2e6b;
+  --global-hover-color: #5c1f50;
+  --global-hover-text-color: #ffffff;
+  --global-highlight-color: #c8102e;
+  --global-divider-color: rgba(30, 26, 43, 0.1);
+  --global-code-bg-color: rgba(122, 46, 107, 0.06);
+  --global-footer-bg-color: #1e1a2b;
+  --global-footer-text-color: #b9b3c4;
+  --global-footer-link-color: #ffffff;
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #15121c;
+  --global-card-bg-color: #1e1a27;
+  --global-text-color: #e9e4ef;
+  --global-text-color-light: #a39db0;
+  --global-theme-color: #e08fc8;
+  --global-hover-color: #f0b3dc;
+  --global-hover-text-color: #15121c;
+  --global-highlight-color: #ff6b7f;
+  --global-divider-color: #2e2838;
+  --global-code-bg-color: #241f2e;
+  --global-footer-bg-color: #0f0d14;
+  --global-footer-text-color: #a39db0;
+  --global-footer-link-color: #e9e4ef;
+}
+
+/* Type */
+body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand,
+.post-title,
+.page-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.post-title {
+  font-size: 2.6rem;
+}
+
+.post-description,
+.post-header .desc {
+  font-family: var(--font-body);
+  color: var(--global-text-color-light);
+}
+
+article h3 {
+  margin-top: 2.2rem;
+  font-size: 1.35rem;
+}
+
+code,
+pre,
+kbd {
+  font-family: var(--font-mono);
+}
+
+strong,
+b {
+  font-weight: 600;
+}
+
+/* Profile photo: thin plum ring */
+.profile img {
+  border: 3px solid var(--global-theme-color);
+  padding: 4px;
+  background: var(--global-bg-color);
+}
+
+.profile .more-info {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--global-text-color-light);
+}
+
+/* Links read as links */
+article a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+/* Lists in the About page breathe a little */
+article ul li {
+  margin-bottom: 0.35rem;
+}
