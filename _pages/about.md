@@ -6,7 +6,7 @@ subtitle: Computational Physics &amp; Data Science · M.Sc., <a href='https://ww
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Ravneet.jpeg
   image_circular: true
   more_info: >
     <p>Montreal, Québec</p>
