@@ -1,7 +1,5 @@
-# this file contains the social media links and usernames of the author
-# the socials will be displayed in the order they are defined here
-# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
-email: ravneetkaur24191508@gmail.com # your email address
-linkedin_username: https://www.linkedin.com/in/ravneet-kaur-bains/# the part after linkedin.com/in/
+# Social links shown on the About page, in this order.
+cv_pdf: /assets/pdf/Ravneet_Kaur_Resume.pdf
+email: ravneetkaur24191508@gmail.com
+linkedin_username: ravneet-kaur-bains
 github_username: RAVNEETKAUR15
