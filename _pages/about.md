@@ -1,5 +1,5 @@
 ---
-layout: About
+layout: about
 title: About
 permalink: /
 subtitle: Computational Physics &amp; Data Science · M.Sc., <a href='https://www.mcgill.ca/physics/'>McGill University</a> · Montreal
