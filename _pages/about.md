@@ -68,14 +68,14 @@ latest_posts:
   <ul class="cv-list">
     <li><span><b>Lightning talk</b> - CHiMaD Phase Field Methods Workshop XXI, Northwestern University</span><span class="cv-when">Nov 2026</span></li>
     <li><span><b>Oral presentation</b> - RQMP Materials Engineering for New Technologies Axis Meeting, Sherbrooke</span><span class="cv-when">Oct 2026</span></li>
-    <li><span><b>Poster</b> - RQMP Grand Conference, 2nd prize</span><span class="cv-when">2026</span></li>
+    <li><span><b>Poster</b> - RQMP Grand Conference, 2nd prize</span><span class="cv-when">June 2026</span></li>
   </ul>
 </section>
 
 <section class="cv-block">
   <h3>Teaching</h3>
   <ul class="cv-list">
-    <li><span><b>Teaching Assistant</b> - Department of Physics, McGill University, introductory physics (five terms)</span><span class="cv-when">2024–2026</span></li>
+    <li><span><b>Teaching Assistant</b> - Department of Physics, McGill University, introductory physics (5 semesters)</span><span class="cv-when">2024–2026</span></li>
   </ul>
 </section>
 
