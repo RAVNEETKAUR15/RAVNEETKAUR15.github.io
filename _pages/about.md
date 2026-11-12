@@ -48,40 +48,40 @@ latest_posts:
 <section class="cv-block">
   <h3>Education</h3>
   <ul class="cv-list">
-    <li><span><b>McGill University</b> · M.Sc. in Physics, Computational Materials Physics</span><span class="cv-when">2026</span></li>
-    <li><span><b>SGTB Khalsa College, University of Delhi</b> · B.Sc. (Honours) in Physics</span><span class="cv-when">2023</span></li>
+    <li><span><b>McGill University</b> - M.Sc. in Physics, Computational Materials Physics</span><span class="cv-when">2026</span></li>
+    <li><span><b>SGTB Khalsa College, University of Delhi</b> - B.Sc. (Honours) in Physics</span><span class="cv-when">2023</span></li>
   </ul>
 </section>
 
 <section class="cv-block">
   <h3>Awards &amp; Honours</h3>
   <ul class="cv-list">
-    <li><span><b>2nd of 47</b> · RQMP Grand Conference poster competition</span><span class="cv-when">2026</span></li>
-    <li><span><b>Winner</b> · ORU IPL Analytics Hackathon</span><span class="cv-when">2026</span></li>
-    <li><span><b>Travel award</b> · CHiMaD Phase Field Methods Workshop XXI, Northwestern University</span><span class="cv-when">2026</span></li>
-    <li><span><b>Mitacs Accelerate Fellowship</b> · with Hydro-Québec</span><span class="cv-when">2024–2026</span></li>
+    <li><span><b>2nd of 47</b> - RQMP Grand Conference poster competition</span><span class="cv-when">2026</span></li>
+    <li><span><b>Winner</b> - ORU IPL Analytics Hackathon</span><span class="cv-when">2026</span></li>
+    <li><span><b>Travel award</b> - CHiMaD Phase Field Methods Workshop XXI, Northwestern University</span><span class="cv-when">2026</span></li>
+    <li><span><b>Mitacs Accelerate Fellowship</b> in partnership with Hydro-Québec</span><span class="cv-when">2024–2026</span></li>
   </ul>
 </section>
 
 <section class="cv-block">
   <h3>Talks</h3>
   <ul class="cv-list">
-    <li><span><b>Lightning talk</b> · CHiMaD Phase Field Methods Workshop XXI, Northwestern University</span><span class="cv-when">Nov 2026</span></li>
-    <li><span><b>Oral presentation</b> · RQMP Materials Engineering for New Technologies Axis Meeting, Sherbrooke</span><span class="cv-when">Oct 2026</span></li>
-    <li><span><b>Poster</b> · RQMP Grand Conference, 2nd prize</span><span class="cv-when">2026</span></li>
+    <li><span><b>Lightning talk</b> - CHiMaD Phase Field Methods Workshop XXI, Northwestern University</span><span class="cv-when">Nov 2026</span></li>
+    <li><span><b>Oral presentation</b> - RQMP Materials Engineering for New Technologies Axis Meeting, Sherbrooke</span><span class="cv-when">Oct 2026</span></li>
+    <li><span><b>Poster</b> - RQMP Grand Conference, 2nd prize</span><span class="cv-when">2026</span></li>
   </ul>
 </section>
 
 <section class="cv-block">
   <h3>Teaching</h3>
   <ul class="cv-list">
-    <li><span><b>Teaching Assistant</b> · Department of Physics, McGill University, introductory physics (five terms)</span><span class="cv-when">2024–2026</span></li>
+    <li><span><b>Teaching Assistant</b> - Department of Physics, McGill University, introductory physics (five terms)</span><span class="cv-when">2024–2026</span></li>
   </ul>
 </section>
 
 <section class="hire" id="hire-me">
   <h3>Hire me</h3>
-  <p>I'm looking for <b>Data Science, Scientific Computing and R&amp;D roles</b> in Montréal or remote across Canada, where careful modelling of messy, real-world systems matters: energy, materials, manufacturing and simulation.</p>
+  <p>I'm looking for <b>Data Science, Research Engineer, Machine Learning, Scientific Computing and R&amp;D roles</b> in Montréal or remote across Canada, where careful modelling of messy, real-world systems matters: energy, materials, manufacturing and simulation.</p>
   <ul class="hire-skills">
     <li><b>Data &amp; ML</b> Python, pandas, NumPy, scikit-learn, LightGBM, SQL, time-series forecasting</li>
     <li><b>Simulation &amp; HPC</b> C++, MPI, spectral methods, numerical PDEs, Slurm</li>
