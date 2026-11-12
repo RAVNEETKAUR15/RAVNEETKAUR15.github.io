@@ -60,8 +60,9 @@ latest_posts:
     <li><span><b>Winner</b> - ORU IPL Analytics Hackathon</span><span class="cv-when">2026</span></li>
     <li><span><b>Full travel funding</b> - CHiMaD Phase Field Methods Workshop XXI, Northwestern University (flights and accommodation)</span><span class="cv-when">Nov 2026</span></li>
     <li><span><b>Mitacs Accelerate Fellowship</b> in partnership with Hydro-Québec</span><span class="cv-when">2024–2026</span></li>
+  <li><span><b>Certificate of Academic Achievement</b> - 2nd in college, second year of B.Sc. (Honours) Physics, SGTB Khalsa College</span><span class="cv-when">2021</span></li>
   </ul>
-    <li><span><b>Certificate of Academic Achievement</b> - 2nd in college, second year of B.Sc. (Honours) Physics, SGTB Khalsa College</span><span class="cv-when">2021</span></li>
+    
 </section>
 
 <section class="cv-block">
