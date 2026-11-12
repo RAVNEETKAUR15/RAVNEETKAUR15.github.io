@@ -167,7 +167,7 @@ body {
   position: relative;
   width: min(1120px, calc(100vw - 32px));
   margin: 0 auto;
-  min-height: 560px;
+  min-height: calc(100vh - 60px);
   display: flex;
   flex-direction: column;
   justify-content: center;
