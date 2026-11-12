@@ -21,14 +21,10 @@ latest_posts:
   <div class="hero-band__inner">
     <div class="hero-band__text">
       <h1 class="home-name">Ravneet Kaur</h1>
-      <img class="home-avatar" src="/assets/img/ravneet-gown.jpg" alt="Ravneet Kaur at her McGill graduation" width="560" height="720">
+      <img class="home-avatar" src="/assets/img/ravneet-portrait.jpg" alt="Ravneet Kaur at her McGill graduation" width="560" height="720">
       <p class="home-line">Computational Materials Physics | Numerical Modelling &amp; Data Science</p>
       <p class="home-line">Master's in Physics</p>
       <p class="home-line home-line--last">McGill University</p>
-      <p class="home-actions">
-        <a class="btn-solid" href="/projects/">See my projects</a>
-        <a class="btn-line" href="/assets/pdf/Ravneet_Kaur_Resume.pdf">Résumé</a>
-      </p>
     </div>
     <a class="scroll-cue" href="#about" aria-label="Scroll to About"><span></span></a>
     <p class="hero-band__cap"><span id="cap-n">Fig. 1</span> <em id="cap-t">An alloy crystal growing in my phase field simulation, coloured by solute concentration.</em></p>
