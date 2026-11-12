@@ -26,7 +26,6 @@ latest_posts:
       <p class="home-line">Master's in Physics</p>
       <p class="home-line home-line--last">McGill University</p>
     </div>
-    <a class="scroll-cue" href="#about" aria-label="Scroll to About"><span></span></a>
     <p class="hero-band__cap"><span id="cap-n">Fig. 1</span> <em id="cap-t">An alloy crystal growing in my phase field simulation, coloured by solute concentration.</em></p>
   </div>
 </section>
