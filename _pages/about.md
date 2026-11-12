@@ -17,9 +17,10 @@ latest_posts:
   </div>
   <div class="hero-band__inner">
     <div class="hero-band__text">
-      <p class="home-kicker">Computational physics · Data science · Montréal</p>
+      <p class="home-kicker">M.Sc. Computational Materials Physics · McGill University</p>
       <h1 class="home-name">Ravneet Kaur</h1>
       <p class="home-lede">I build physics models of how materials form, from atoms to crystals, and turn the data they produce into answers people can use.</p>
+       <p class="home-keys">Numerical modelling<b>·</b>Data analysis<b>·</b>Statistics<b>·</b>Machine learning<b>·</b>Scientific computing<b>·</b>Python<b>·</b>C++/MPI<b>·</b>HPC</p>
       <p class="home-actions">
         <a class="btn-solid" href="/projects/">See my projects</a>
         <a class="btn-line" href="/assets/pdf/Ravneet_Kaur_Resume.pdf">Résumé</a>
