@@ -218,12 +218,13 @@ body {
 }
 
 .home-kicker {
-  font-family: var(--font-body);
-  font-size: 1rem;
-  font-weight: 600;
+  font-family: "Cormorant Garamond", var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.45rem;
   letter-spacing: 0.01em;
-  color: #c9cdfa;
-  margin: 0 0 0.9rem;
+  color: #d9dcfb;
+  margin: 0 0 0.6rem;
 }
 
 .home-name {
