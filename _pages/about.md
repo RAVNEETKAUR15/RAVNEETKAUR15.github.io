@@ -48,8 +48,8 @@ latest_posts:
 <section class="cv-block">
   <h3>Education</h3>
   <ul class="cv-list">
-    <li><span><b>McGill University</b> - M.Sc. in Physics, Computational Materials Physics</span><span class="cv-when">2026</span></li>
-    <li><span><b>SGTB Khalsa College, University of Delhi</b> - B.Sc. (Honours) in Physics</span><span class="cv-when">2023</span></li>
+    <li><span><b>M.Sc. in Physics, Computational Materials Physics</b> - McGill University</span><span class="cv-when">2026</span></li>
+    <li><span><b>B.Sc. (Honours) in Physics</b> - SGTB Khalsa College, University of Delhi</span><span class="cv-when">2023</span></li>
   </ul>
 </section>
 
@@ -58,17 +58,18 @@ latest_posts:
   <ul class="cv-list">
     <li><span><b>2nd of 47</b> - RQMP Grand Conference poster competition</span><span class="cv-when">2026</span></li>
     <li><span><b>Winner</b> - ORU IPL Analytics Hackathon</span><span class="cv-when">2026</span></li>
-    <li><span><b>Fully funded invitation</b> - CHiMaD Phase Field Methods Workshop XXI, Northwestern University (travel and accommodation)</span><span class="cv-when">2026</span></li>
+    <li><span><b>Full travel funding</b> - CHiMaD Phase Field Methods Workshop XXI, Northwestern University (flights and accommodation)</span><span class="cv-when">Nov 2026</span></li>
     <li><span><b>Mitacs Accelerate Fellowship</b> in partnership with Hydro-Québec</span><span class="cv-when">2024–2026</span></li>
   </ul>
+    <li><span><b>Certificate of Academic Achievement</b> - 2nd in college, second year of B.Sc. (Honours) Physics, SGTB Khalsa College</span><span class="cv-when">2021</span></li>
 </section>
 
 <section class="cv-block">
   <h3>Talks</h3>
   <ul class="cv-list">
     <li><span><b>Lightning talk</b> - CHiMaD Phase Field Methods Workshop XXI, Northwestern University</span><span class="cv-when">Nov 2026</span></li>
-    <li><span><b>Oral presentation</b> - RQMP Materials Engineering for New Technologies Axis Meeting, Sherbrooke</span><span class="cv-when">Oct 2026</span></li>
-    <li><span><b>Poster</b> - RQMP Grand Conference, 2nd prize</span><span class="cv-when">June 2026</span></li>
+    <li><span><b>Oral presentation</b> - Regroupement québécois sur les matériaux de pointe (RQMP) Materials Engineering for New Technologies Axis Meeting, Sherbrooke</span><span class="cv-when">Oct 2026</span></li>
+    <li><span><b>Poster Presentation</b> - RQMP Grand Conference, 2nd prize</span><span class="cv-when">June 2026</span></li>
   </ul>
 </section>
 
