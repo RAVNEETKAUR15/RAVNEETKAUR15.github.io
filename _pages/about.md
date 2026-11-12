@@ -21,7 +21,7 @@ latest_posts:
   <div class="hero-band__inner">
     <div class="hero-band__text">
       <h1 class="home-name">Ravneet Kaur</h1>
-      <img class="home-avatar" src="/assets/img/ravneet-portrait.jpg" alt="Ravneet Kaur at her McGill graduation" width="560" height="720">
+      <img class="home-avatar" src="/assets/img/ravneet-graduation.jpg" alt="Ravneet Kaur at her McGill graduation" width="700" height="840">
       <p class="home-line">Computational Materials Physics | Numerical Modelling &amp; Data Science</p>
       <p class="home-line">Master's in Physics</p>
       <p class="home-line home-line--last">McGill University</p>
