@@ -511,3 +511,22 @@ html.rv-on .rv.rv-in {
 .hero-band__text {
   will-change: transform, opacity;
 }
+
+/* Keyword line under the opening sentence */
+.home-lede {
+  margin-bottom: 1rem;
+}
+
+.home-keys {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.72);
+  margin: 0 0 1.6rem;
+}
+
+.home-keys b {
+  font-weight: 400;
+  color: #f3c9a8;
+  margin: 0 0.4em;
+}
