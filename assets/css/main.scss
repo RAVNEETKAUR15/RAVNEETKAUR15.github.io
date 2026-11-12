@@ -322,7 +322,8 @@ body {
 }
 
 .hero-band__cap span {
-  font-family: var(--font-mono);
+  font-family: "Marcellus", var(--font-display);
+  letter-spacing: 0.08em;
   color: rgba(255, 255, 255, 0.9);
   margin-right: 0.3rem;
 }
@@ -633,8 +634,8 @@ html {
 
 .cv-when {
   flex: none;
-  font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
   font-variant-numeric: tabular-nums;
   color: var(--global-text-color-light);
 }
@@ -683,10 +684,12 @@ html {
 
 .hire-skills b {
   display: inline-block;
-  min-width: 10.5rem;
-  font-family: var(--font-mono);
-  font-weight: 500;
-  font-size: 0.82rem;
+  min-width: 11rem;
+  font-family: "Marcellus", var(--font-display);
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
   color: #f3c9a8;
 }
 
@@ -722,8 +725,9 @@ html {
 }
 
 .hire-email {
-  font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.65) !important;
   margin: 0;
   user-select: all;
