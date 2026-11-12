@@ -39,7 +39,7 @@ latest_posts:
     <p>Outside of research, I'm a photographer at heart. I love catching physics in everyday life; the frost photo on my home page is one example. I volunteer with Khalsa Aid Canada's food distribution in Montréal, and one day I'd like to learn to fly.</p>
   </div>
   <figure class="home-portrait">
-    <img src="/assets/img/ravneet-blazer.jpg" alt="Ravneet Kaur" width="560" height="720" loading="lazy">
+    <img src="/assets/img/ravneet-headshot.jpg" alt="Ravneet Kaur" width="560" height="700" loading="lazy">
   </figure>
 </section>
 
@@ -58,7 +58,7 @@ latest_posts:
   <ul class="cv-list">
     <li><span><b>2nd of 47</b> - RQMP Grand Conference poster competition</span><span class="cv-when">2026</span></li>
     <li><span><b>Winner</b> - ORU IPL Analytics Hackathon</span><span class="cv-when">2026</span></li>
-    <li><span><b>Travel award</b> - CHiMaD Phase Field Methods Workshop XXI, Northwestern University</span><span class="cv-when">2026</span></li>
+    <li><span><b>Fully funded invitation</b> - CHiMaD Phase Field Methods Workshop XXI, Northwestern University (travel and accommodation)</span><span class="cv-when">2026</span></li>
     <li><span><b>Mitacs Accelerate Fellowship</b> in partnership with Hydro-Québec</span><span class="cv-when">2024–2026</span></li>
   </ul>
 </section>
