@@ -77,7 +77,7 @@ latest_posts:
 <section class="cv-block">
   <h3>Teaching</h3>
   <ul class="cv-list">
-    <li><span><b>Teaching Assistant</b> - Department of Physics, McGill University, introductory physics (5 semesters)</span><span class="cv-when">2024–2026</span></li>
+    <li><span><b>Teaching Assistant</b> - Department of Physics, McGill University (5 semesters)</span><span class="cv-when">2024–2026</span></li>
   </ul>
 </section>
 
