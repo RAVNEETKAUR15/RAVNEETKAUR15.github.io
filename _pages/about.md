@@ -83,14 +83,16 @@ latest_posts:
 
 <section class="hire" id="hire-me">
   <h3>Hire me</h3>
-  <p>I'm looking for <b>Data Science, Research Engineer, Machine Learning, Scientific Computing and R&amp;D roles</b> in Montréal or remote across Canada, where careful modelling of messy, real-world systems matters: energy, materials, manufacturing and simulation.</p>
+  <p>I'm open to industry roles in <b>Data Science, Machine Learning, Research Engineering, Scientific Computing and R&amp;D</b>, in Montréal or remote across Canada.</p>
+  <p>I do my best work where careful modelling of messy, real-world systems matters: energy, materials, manufacturing and simulation. I'm especially drawn to energy, from forecasting electricity demand to the analytics behind power markets and trading, where physical intuition and rigorous validation make a real difference.</p>
   <ul class="hire-skills">
     <li><b>Data &amp; ML</b> Python, pandas, NumPy, scikit-learn, LightGBM, SQL, time-series forecasting</li>
     <li><b>Simulation &amp; HPC</b> C++, MPI, spectral methods, numerical PDEs, Slurm</li>
     <li><b>Tools</b> Git, Streamlit, FastAPI, OVITO, Mathematica</li>
   </ul>
   <p class="hire-links">
-    <a href="/assets/pdf/Ravneet_Kaur_Resume.pdf">Download my résumé</a>
+    <a href="/assets/pdf/Ravneet_Kaur_Resume.pdf">Industry résumé</a>
+    <a href="/assets/pdf/Ravneet_Kaur_CV.pdf">Academic CV</a>
   </p>
 </section>
 
