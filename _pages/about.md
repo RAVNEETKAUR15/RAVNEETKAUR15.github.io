@@ -12,32 +12,38 @@ latest_posts:
 ---
 <section class="hero-band">
   <div class="hero-band__art" aria-hidden="true">
-    <img class="grow-a" src="/assets/img/dendrite-75k.jpg" alt="" width="1000" height="1000">
-    <img class="grow-b" src="/assets/img/dendrite-100k.jpg" alt="" width="1000" height="1000">
+    <img class="seed" src="/assets/img/dendrite-75k.jpg" alt="" width="1000" height="1000">
+    <img class="slide" src="/assets/img/dendrite-100k.jpg" alt="" width="1000" height="1000" data-cap="An alloy crystal growing in my phase field simulation, coloured by solute concentration.">
+    <img class="slide" src="/assets/img/g-thermal.jpg" alt="" width="1000" height="1000" loading="lazy" data-cap="A pure-material crystal in my phase field simulation, coloured by temperature.">
+    <img class="slide" src="/assets/img/slide-alsi.jpg" alt="" width="1200" height="1200" loading="lazy" data-cap="An Al–Si alloy under laser-printing conditions, atom by atom: phase field crystal on a 2048 × 1024 × 1024 grid.">
+    <img class="slide slide--photo" src="/assets/img/g-frost.jpg" alt="" width="900" height="900" loading="lazy" data-cap="Frost on concrete in Montréal, photographed by me: the same physics, outside my door.">
   </div>
   <div class="hero-band__inner">
     <div class="hero-band__text">
-      <p class="home-kicker">M.Sc. Computational Materials Physics | McGill University</p>
       <h1 class="home-name">Ravneet Kaur</h1>
-      <p class="home-lede">I simulate how alloys form during metal 3D printing on Canada's supercomputers, and build the Python pipelines that turn terabytes of output into clear, quantitative answers.</p>
-       <p class="home-keys">Numerical modelling<b>·</b>Data analysis<b>·</b>Statistics<b>·</b>Machine learning<b>·</b>Scientific computing<b>·</b>Python<b>·</b>C++/MPI<b>·</b>HPC</p>
+      <p class="home-role">Computational Materials Physics | Numerical Modelling &amp; Data Science</p>
+      <p class="home-degree">M.Sc. in Physics, McGill University</p>
       <p class="home-actions">
         <a class="btn-solid" href="/projects/">See my projects</a>
         <a class="btn-line" href="/assets/pdf/Ravneet_Kaur_Resume.pdf">Résumé</a>
       </p>
     </div>
-    <p class="hero-band__cap"><span>Fig. 1</span> An alloy crystal growing in my phase field simulation, coloured by solute concentration.</p>
+    <p class="hero-band__cap"><span id="cap-n">Fig. 1</span> <em id="cap-t">An alloy crystal growing in my phase field simulation, coloured by solute concentration.</em></p>
   </div>
 </section>
 
-<section class="models">
-  <p class="models__label">Selected models</p>
-  <div class="models__grid">
-    <figure><img src="/assets/img/g-alsi-3d.jpg" alt="3D phase field crystal simulation of an Al–Si alloy" width="900" height="900" loading="lazy"><figcaption><b>Al–Si alloy, atom by atom</b>Phase field crystal, 3D, laser-printing conditions</figcaption></figure>
-    <figure><img src="/assets/img/g-phase.jpg" alt="Phase field simulation of an alloy dendrite, solid and liquid" width="800" height="800" loading="lazy"><figcaption><b>Alloy dendrite</b>Phase field, solid–liquid order parameter</figcaption></figure>
-    <figure><img src="/assets/img/g-thermal.jpg" alt="Phase field simulation of a pure-material crystal, temperature field" width="800" height="800" loading="lazy"><figcaption><b>Pure-material crystal</b>Phase field, temperature field</figcaption></figure>
-    <figure><img src="/assets/img/g-frost.jpg" alt="Photograph of frost crystals on concrete" width="900" height="900" loading="lazy"><figcaption><b>Frost on concrete</b>My photograph: the same physics, outside my door</figcaption></figure>
+<section class="home-about">
+  <div class="home-about__text">
+    <h2>About</h2>
+    <p class="home-about__lead">I simulate how alloys form during metal 3D printing on Canada's supercomputers, and build the Python pipelines that turn terabytes of output into clear, quantitative answers.</p>
+    <p>For my M.Sc. at McGill University, in Professor Nikolas Provatas's group, I modelled how aluminium–silicon alloys form their microstructure during laser powder bed fusion, the process behind metal 3D printing.</p>
+    <p>I extended the open-source OpenPFC framework from pure materials to binary alloys in C++/MPI, ran 3D simulations on Canada's national supercomputers, and wrote the pipeline that turned <strong>100 TB+</strong> of output into precipitate and dislocation statistics. The project was a Mitacs Accelerate collaboration with Hydro-Québec and experimental teams at the University of New Brunswick and McMaster University.</p>
+    <p>The same skills carry straight into industry: fast numerical code, analysis pipelines that hold up, and the habit of checking whether a result is physically and statistically believable before trusting it.</p>
   </div>
+  <figure class="home-portrait">
+    <img src="/assets/img/portrait.jpg" alt="Ravneet Kaur at her McGill convocation" width="720" height="900">
+    <figcaption>McGill convocation, October 2026</figcaption>
+  </figure>
 </section>
 
 <div class="home-numbers">
@@ -48,19 +54,6 @@ latest_posts:
 </div>
 
 <div class="lattice-rule" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="misfit"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-
-<section class="home-about">
-  <div class="home-about__text">
-    <h2>About</h2>
-    <p>For my M.Sc. at McGill University, in Professor Nikolas Provatas's group, I modelled how aluminium–silicon alloys form their microstructure during laser powder bed fusion, the process behind metal 3D printing.</p>
-    <p>I extended the open-source OpenPFC framework from pure materials to binary alloys in C++/MPI, ran 3D simulations on Canada's national supercomputers, and wrote the pipeline that turned <strong>100 TB+</strong> of output into precipitate and dislocation statistics. The project was a Mitacs Accelerate collaboration with Hydro-Québec and experimental teams at the University of New Brunswick and McMaster University.</p>
-    <p>The same skills carry straight into industry: fast numerical code, analysis pipelines that hold up, and the habit of checking whether a result is physically and statistically believable before trusting it.</p>
-  </div>
-  <figure class="home-portrait">
-    <img src="/assets/img/portrait.jpg" alt="Ravneet Kaur at her McGill convocation" width="720" height="900">
-    <figcaption>McGill convocation, October 2026</figcaption>
-  </figure>
-</section>
 
 ### Hire me
 
@@ -85,18 +78,44 @@ I'm a photographer at heart and was Creative Head of Sparks, my college physics 
 <script>
 (function () {
   var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  // 1. Banner: the crystal grows, then the banner cycles through my simulations
+  var slides = document.querySelectorAll(".hero-band__art .slide");
+  var seed = document.querySelector(".hero-band__art .seed");
+  var capN = document.getElementById("cap-n"), capT = document.getElementById("cap-t");
+  var cap = capT ? capT.parentNode : null;
+  if (slides.length) {
+    if (reduce) {
+      slides[0].classList.add("is-on");
+      if (seed) seed.style.opacity = "0";
+    } else {
+      var i = 0;
+      setTimeout(function () { slides[0].classList.add("is-on", "is-growing"); }, 700);
+      setTimeout(function () { if (seed) seed.style.opacity = "0"; slides[0].classList.remove("is-growing"); }, 5200);
+      setInterval(function () {
+        slides[i].classList.remove("is-on");
+        i = (i + 1) % slides.length;
+        slides[i].classList.add("is-on");
+        if (cap) {
+          cap.style.opacity = "0";
+          setTimeout(function () {
+            capN.textContent = "Fig. " + (i + 1);
+            capT.textContent = slides[i].getAttribute("data-cap");
+            cap.style.opacity = "1";
+          }, 600);
+        }
+      }, 7000);
+    }
+  }
   if (reduce || !("IntersectionObserver" in window)) return;
-  var root = document.documentElement;
-  root.classList.add("rv-on");
-  // 1. Reveal sections as they scroll into view, one after another
-  var groups = [".models__grid > figure", ".home-numbers > div", ".lattice-rule", ".home-about__text", ".home-portrait", "article > h3", "article > ul", "article > p", ".models__label"];
+  // 2. Sections glide in as they scroll into view
+  document.documentElement.classList.add("rv-on");
+  var groups = [".home-numbers > div", ".lattice-rule", ".home-about__text", ".home-portrait", "article > h3", "article > ul", "article > p"];
   var items = [];
   groups.forEach(function (sel) {
-    var els = document.querySelectorAll(sel);
-    els.forEach(function (el, i) {
+    document.querySelectorAll(sel).forEach(function (el, k) {
       if (el.closest(".hero-band")) return;
       el.classList.add("rv");
-      if (sel.indexOf("> figure") > -1 || sel.indexOf("> div") > -1) el.style.transitionDelay = (i * 0.09) + "s";
+      if (sel.indexOf("> div") > -1) el.style.transitionDelay = (k * 0.09) + "s";
       items.push(el);
     });
   });
@@ -106,7 +125,7 @@ I'm a photographer at heart and was Creative Head of Sparks, my college physics 
     });
   }, { rootMargin: "0px 0px -8% 0px", threshold: 0.12 });
   items.forEach(function (el) { io.observe(el); });
-  // 2. Hero: as you scroll, the crystal slowly grows and the text drifts away
+  // 3. Banner reacts to scrolling: the art grows and turns, the text drifts away
   var band = document.querySelector(".hero-band");
   var art = document.querySelector(".hero-band__art");
   var text = document.querySelector(".hero-band__text");
@@ -114,8 +133,7 @@ I'm a photographer at heart and was Creative Head of Sparks, my college physics 
   var ticking = false;
   function update() {
     ticking = false;
-    var h = band.offsetHeight || 1;
-    var p = Math.min(Math.max(window.scrollY / h, 0), 1);
+    var p = Math.min(Math.max(window.scrollY / (band.offsetHeight || 1), 0), 1);
     art.style.transform = "translateY(-50%) scale(" + (1 + 0.18 * p) + ") rotate(" + (6 * p) + "deg)";
     art.style.opacity = String(1 - 0.55 * p);
     text.style.transform = "translateY(" + (-70 * p) + "px)";
