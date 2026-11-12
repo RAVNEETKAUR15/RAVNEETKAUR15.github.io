@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: About Me
 permalink: /
 subtitle: Computational Physics &amp; Data Science · M.Sc., McGill University · Montréal
 selected_papers: false
