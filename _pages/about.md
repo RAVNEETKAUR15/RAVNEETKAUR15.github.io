@@ -21,18 +21,21 @@ latest_posts:
   <div class="hero-band__inner">
     <div class="hero-band__text">
       <h1 class="home-name">Ravneet Kaur</h1>
-      <p class="home-role">Computational Materials Physics | Numerical Modelling &amp; Data Science</p>
-      <p class="home-degree">M.Sc. in Physics, McGill University</p>
+      <img class="home-avatar" src="/assets/img/ravneet-gown.jpg" alt="Ravneet Kaur at her McGill graduation" width="560" height="720">
+      <p class="home-line">Computational Materials Physics | Numerical Modelling &amp; Data Science</p>
+      <p class="home-line">Master's in Physics</p>
+      <p class="home-line home-line--last">McGill University</p>
       <p class="home-actions">
         <a class="btn-solid" href="/projects/">See my projects</a>
         <a class="btn-line" href="/assets/pdf/Ravneet_Kaur_Resume.pdf">Résumé</a>
       </p>
     </div>
+    <a class="scroll-cue" href="#about" aria-label="Scroll to About"><span></span></a>
     <p class="hero-band__cap"><span id="cap-n">Fig. 1</span> <em id="cap-t">An alloy crystal growing in my phase field simulation, coloured by solute concentration.</em></p>
   </div>
 </section>
 
-<section class="home-about">
+<section class="home-about" id="about">
   <div class="home-about__text">
     <h2>About</h2>
     <p class="home-about__lead">I simulate how alloys form during metal 3D printing on Canada's supercomputers, and build the Python pipelines that turn terabytes of output into clear, quantitative answers.</p>
@@ -41,8 +44,7 @@ latest_posts:
     <p>The same skills carry straight into industry: fast numerical code, analysis pipelines that hold up, and the habit of checking whether a result is physically and statistically believable before trusting it.</p>
   </div>
   <figure class="home-portrait">
-    <img src="/assets/img/portrait.jpg" alt="Ravneet Kaur at her McGill convocation" width="720" height="900">
-    <figcaption>McGill convocation, October 2026</figcaption>
+    <img src="/assets/img/ravneet-blazer.jpg" alt="Ravneet Kaur" width="560" height="720" loading="lazy">
   </figure>
 </section>
 
@@ -131,11 +133,12 @@ I'm a photographer at heart and was Creative Head of Sparks, my college physics 
   var text = document.querySelector(".hero-band__text");
   if (!band || !art || !text) return;
   var ticking = false;
+  var base = parseFloat(getComputedStyle(art).opacity) || 1;
   function update() {
     ticking = false;
     var p = Math.min(Math.max(window.scrollY / (band.offsetHeight || 1), 0), 1);
     art.style.transform = "translateY(-50%) scale(" + (1 + 0.18 * p) + ") rotate(" + (6 * p) + "deg)";
-    art.style.opacity = String(1 - 0.55 * p);
+    art.style.opacity = String(base * (1 - 0.55 * p));
     text.style.transform = "translateY(" + (-70 * p) + "px)";
     text.style.opacity = String(1 - 1.2 * p);
   }
