@@ -17,7 +17,7 @@ latest_posts:
   </div>
   <div class="hero-band__inner">
     <div class="hero-band__text">
-      <p class="home-kicker">M.Sc. Computational Materials Physics · McGill University</p>
+      <p class="home-kicker">M.Sc. Computational Materials Physics | McGill University</p>
       <h1 class="home-name">Ravneet Kaur</h1>
       <p class="home-lede">I simulate how alloys form during metal 3D printing on Canada's supercomputers, and build the Python pipelines that turn terabytes of output into clear, quantitative answers.</p>
        <p class="home-keys">Numerical modelling<b>·</b>Data analysis<b>·</b>Statistics<b>·</b>Machine learning<b>·</b>Scientific computing<b>·</b>Python<b>·</b>C++/MPI<b>·</b>HPC</p>
