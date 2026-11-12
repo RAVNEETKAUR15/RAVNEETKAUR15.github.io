@@ -88,11 +88,8 @@ latest_posts:
     <li><b>Tools</b> Git, Streamlit, FastAPI, OVITO, Mathematica</li>
   </ul>
   <p class="hire-links">
-    <a href="/assets/pdf/Ravneet_Kaur_Resume.pdf">Résumé (PDF)</a>
-    <a href="https://www.linkedin.com/in/ravneet-kaur-bains">LinkedIn</a>
-    <a href="https://github.com/RAVNEETKAUR15">GitHub</a>
+    <a href="/assets/pdf/Ravneet_Kaur_Resume.pdf">Download my résumé</a>
   </p>
-  <p class="hire-email">ravneetkaur24191508@gmail.com</p>
 </section>
 
 <script>
