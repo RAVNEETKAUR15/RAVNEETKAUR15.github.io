@@ -2,7 +2,7 @@
 layout: page
 title: Achievements
 permalink: /achievements/
-description: Awards, funding and recognition. Click any certificate to see it full size.
+description: Awards, funding and recognition.
 nav: true
 nav_order: 4
 ---
